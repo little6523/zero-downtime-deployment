@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
     private final ServletWebServerApplicationContext webServerAppContext;
-    private static final String RESPONSE_BODY_MESSAGE = "";
+    private static final String RESPONSE_BODY_MESSAGE = "Blue Green 전략 도입 전입니다.";
 
     public TestController(ServletWebServerApplicationContext webServerAppContext) {
         this.webServerAppContext = webServerAppContext;
