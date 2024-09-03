@@ -58,5 +58,5 @@ jobs:
 
       - name: Execute remote command
         run: |
-          ssh -v ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }} "sudo chmod +x ~/cicd/deploy.sh"
-          ssh -v ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }} "sudo ~/cicd/deploy.sh"
+          ssh -v ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }} "sudo chmod +x ~/cicd/rolling/deploy.sh"
+          ssh -v ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }} "sudo ~/cicd/rolling/deploy.sh"
