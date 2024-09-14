@@ -1,5 +1,9 @@
 # 실전! Github Actions 와 Nginx 로 따라해보는 무중단 배포
+<div align="center">
+
 ![책 이미지.png](docs%2F%EC%B1%85%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png)
+
+</div>>
 
 # 1. 저자
 |         [박정균](https://github.com/junggyun)          |       [박주현](https://github.com/Programmer-may)     |            [이현준](https://github.com/little6523)            |         [조성윤](https://github.com/syeej)         |         [최혜미](https://github.com/ghrltjdtprbs)          |
