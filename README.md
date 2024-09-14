@@ -1,5 +1,5 @@
 # 실전! Github Actions 와 Nginx 로 따라해보는 무중단 배포
-책 표지 이미지와 책 링크가 들어갈 것입니다.
+![책 이미지.png](docs%2F%EC%B1%85%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png)
 
 # 1. 저자
 |         [박정균](https://github.com/junggyun)          |       [박주현](https://github.com/Programmer-may)     |            [이현준](https://github.com/little6523)            |         [조성윤](https://github.com/syeej)         |         [최혜미](https://github.com/ghrltjdtprbs)          |
@@ -109,7 +109,7 @@ Rolling 무중단 배포 전략 도입 전 환경을 구축합니다.
 ### rolling_after 브랜치
 
 Rolling  전략 도입하여 무중단 배포를 실행합니다.
-`cd-bluegreen.yml` 파일을 통해 deploy.sh 파일을 실행합니다.
+`cd-rolling.yml` 파일을 통해 deploy.sh 파일을 실행합니다.
 
 ### deploy.sh 파일
 
