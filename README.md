@@ -48,7 +48,7 @@ Termius를 사용해, EC2 서버에 접속하여 JAVA 와 Nginx 등 인프라를
 # 4️⃣ 브랜치 전략
 ![브랜치 전략.png](docs%2F%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EC%A0%84%EB%9E%B5.png)
 1. 프로젝트를 생성하고, main 브랜치에 기본 셋팅을 합니다.
-2. main 브랜치를 본따 bluegreen, rolling, canary 브랜치를 생성합니다. Github Actions 배포 파일에 bluegreen, rolling, canary 브랜치 push 트리거를 설정합니다.
+2. main 브랜치를 본떠 bluegreen, rolling, canary 브랜치를 생성합니다. Github Actions 배포 파일에 bluegreen, rolling, canary 브랜치 push 트리거를 설정합니다.
 3. 각 배포 전략의 before, after 브랜치 내용을 push하여 자동 배포가 실행되게 합니다.
    전략이름_before 브랜치는 해당 배포 전략 도입 전 셋팅을, 배포전략_after 브랜치는 해당 배포 전략을 도입하여 무중단 배포를 수행하는 브랜치입니다.
 4. before 브랜치는 빌드 결과물인 JAR 파일을 서버의 `cicd` 디렉토리로 옮깁니다. 이전 프로세스를 종료 시킨 후 구 버전의 JAR 파일을 `old_build` 디렉토리로 옮기고, 신 버전의 JAR 파일을 실행 시킵니다. 이전 프로세스를 종료시키고, 신 버전의 프로세스가 서비스되기까지 다운타임이 발생하게 됩니다.
