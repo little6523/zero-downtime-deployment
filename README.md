@@ -1,8 +1,9 @@
 # 실전! Github Actions 와 Nginx 로 따라해보는 무중단 배포
 <div align="left">
-  <a href="#" onclick="window.open('https://ridibooks.com/books/2773000098', '_blank'); return false;">📖 책 보러 가기</a> | 
-  <a href="#" onclick="window.open('https://buly.kr/GZw5Ua7', '_blank'); return false;">🖥️ 노션 페이지로 책보기</a>
+  <a href="https://ridibooks.com/books/2773000098" target="_blank" rel="noopener noreferrer">📖 책 보러 가기</a> | 
+  <a href="https://buly.kr/GZw5Ua7" target="_blank" rel="noopener noreferrer">🖥️ 노션 페이지로 책보기</a>
 </div>
+
 <div align="center">
 
 ![책 이미지.png](docs%2F%EC%B1%85%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png)
