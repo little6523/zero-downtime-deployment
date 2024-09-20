@@ -1,6 +1,8 @@
 # 실전! Github Actions 와 Nginx 로 따라해보는 무중단 배포
-[📖 책 보러 가기](https://ridibooks.com/books/2773000098){: target="_blank" rel="noopener noreferrer"}
-[🖥️ 노션 페이지로 책보기](https://buly.kr/GZw5Ua7){: target="_blank" rel="noopener noreferrer"}
+<div align="left">
+  <a href="https://ridibooks.com/books/2773000098" target="_blank" rel="noopener noreferrer">📖 책 보러 가기</a> | 
+  <a href="https://buly.kr/GZw5Ua7" target="_blank" rel="noopener noreferrer">🖥️ 노션 페이지로 책보기</a>
+</div>
 
 <div align="center">
 
