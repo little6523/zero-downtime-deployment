@@ -1,4 +1,9 @@
 # 실전! Github Actions 와 Nginx 로 따라해보는 무중단 배포
+<div align="left">
+  
+[**📖 책 보러 가기**](https://ridibooks.com/books/2773000098) | [**🖥️ 노션 페이지로 책보기**](https://buly.kr/GZw5Ua7)
+
+</div>
 <div align="center">
 
 ![책 이미지.png](docs%2F%EC%B1%85%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png)
